@@ -9,6 +9,8 @@
 
 * Gestion de archivos en HDFS Y S3
 
+* Map/Reduce 
+
 * Ejercicio Map/ Reduce con MRJob
 
 
