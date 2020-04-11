@@ -70,19 +70,19 @@
   
   Interactivamente: 
   
-   ![KeyPair](EMR/emr9.PNG)
+   ![KeyPair](EMR/emr9-1.PNG)
    
   Por línea de comandos:
       1.	Entramos a la información del cluster
       2.	Consultamos el comando de AWS CLI
     
-    ![KeyPair](EMR/emr10.PNG)
+    ![KeyPair](EMR/emr9.PNG)
     
      3.	Ejecutamos
   
-    ![KeyPair](EMR/emr11.PNG)  
+    ![KeyPair](EMR/emr10.PNG)  
       
-    ![KeyPair](EMR/emr12.png)
+    ![KeyPair](EMR/emr11.PNG)
 
 
   
