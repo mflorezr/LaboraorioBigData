@@ -138,31 +138,31 @@
   
         Accedemos al nodo maestro a través de ssh por putty, debido a que los datasets aún no están en el nodo local debemos descargarlos. Ya que no existe el comando git, lo traemos desde HDFS(tambien se puede desde s3) teniendo en cuenta que los datasets ya se encuentran ahí.
   
-      ![KeyPair](EMR/emr20.png)
+        ![KeyPair](EMR/emr20.png)
   
-      Creamos un directorio y traemos todos los datasets a este.
+        Creamos un directorio y traemos todos los datasets a este.
   
-      ![KeyPair](EMR/emr21.png)
+        ![KeyPair](EMR/emr21.png)
   
-      Para subir desde Shell a HDFS lo que hacemos es crear otra carpeta en HDFS y subimos los archivos. (El proceso inverso).
+        Para subir desde Shell a HDFS lo que hacemos es crear otra carpeta en HDFS y subimos los archivos. (El proceso inverso).
   
-      ![KeyPair](EMR/emr22.png)
+        ![KeyPair](EMR/emr22.png)
   
-      ![KeyPair](EMR/emr23.png)
+        ![KeyPair](EMR/emr23.png)
   
     2. A S3
   
-      ![KeyPair](EMR/emr24.png)
+        ![KeyPair](EMR/emr24.png)
   
-      Copiaremos los archivos locales al directorio “datasetsshell”. Podemos copiar un archivo por uno con el comando cp o podemos subir los directorios con sync.
+        Copiaremos los archivos locales al directorio “datasetsshell”. Podemos copiar un archivo por uno con el comando cp o podemos subir los directorios con sync.
   
-      ![KeyPair](EMR/emr25.PNG)
+        ![KeyPair](EMR/emr25.PNG)
  
-      Los archivos fueron copiados, podemos verificar por shell o de manera interactiva en la consola de AWS/S3:
+        Los archivos fueron copiados, podemos verificar por shell o de manera interactiva en la consola de AWS/S3:
  
-      ![KeyPair](EMR/emr26.png)
+        ![KeyPair](EMR/emr26.png)
  
-      ![KeyPair](EMR/emr27.png)
+        ![KeyPair](EMR/emr27.png)
  
  
   
