@@ -178,7 +178,7 @@
       
       Luego verificamos que si se hayan copiado:
       
-      ![HS](hdsf-s3/HS2.png)
+      ![HS](hdsf-s3/HS2-1.png)
       
 * Copiar datasets desde Shell en la 192.168.10.116 hacia S3/Amazon 
   
