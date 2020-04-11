@@ -39,15 +39,15 @@
   
   ![KeyPair](EMR/emr4.png) 
   
-    Se agrega las reglas para los puertos pertenecientes a Hue(8888) a Zeppelin(8890) y SSH(22)
+  Se agrega las reglas para los puertos pertenecientes a Hue(8888) a Zeppelin(8890) y SSH(22)
   
-    ![KeyPair](EMR/emr5.png) 
+  ![KeyPair](EMR/emr5.png) 
   
-    Luego vamos a la seccion de Bloqueo de acceso publico y agregamos el rango de puertos de usaremos para este laboratorio.
+  Luego vamos a la seccion de Bloqueo de acceso publico y agregamos el rango de puertos de usaremos para este laboratorio.
   
    ![KeyPair](EMR/emr28.PNG) 
   
-  ## Scripts importantes para creacion y destruccion de clusters
+## Scripts importantes para creacion y destruccion de clusters
   
   ![KeyPair](EMR/emr6.PNG) 
 
@@ -90,7 +90,7 @@
   
   * SSH
   
-  Conexión mediante la herramienta putty:
+    Conexión mediante la herramienta putty:
   
   ![KeyPair](EMR/emr12.png)
   
@@ -99,7 +99,7 @@
   
   * HUE
   
- Interfaz para ingeniero de datos
+    Interfaz para ingeniero de datos
  
  ![KeyPair](EMR/emr14.png)
  
@@ -107,36 +107,36 @@
  
  * Desde HUE:
  
-  1.	A HDFS:
+    1.	A HDFS:
  
-  Creamos los directorios y subimos los datasets.
+    Creamos los directorios y subimos los datasets.
   
-  ![KeyPair](EMR/emr15.png)
+    ![KeyPair](EMR/emr15.png)
   
-  2. A S3
+    2. A S3
   
-  Nos ubicamos en nuestro bucket, o creamos uno nuevo
+    Nos ubicamos en nuestro bucket, o creamos uno nuevo
   
-  ![KeyPair](EMR/emr16.png)
+    ![KeyPair](EMR/emr16.png)
   
-  Creamos los directorios y subimos los archivos.
+    Creamos los directorios y subimos los archivos.
   
-   ![KeyPair](EMR/emr17.png)
+    ![KeyPair](EMR/emr17.png)
    
-  [OPCIONAL] Crear un bucket nuevo desde HUE
+    [OPCIONAL] Crear un bucket nuevo desde HUE
   
-  ![KeyPair](EMR/emr18.PNG)
+    ![KeyPair](EMR/emr18.PNG)
   
-  Crear directorios y subir archivos
+    Crear directorios y subir archivos
  
-  ![KeyPair](EMR/emr19.png)
+    ![KeyPair](EMR/emr19.png)
   
   
  * Desde Shell:
 
   1.	A HDFS
   
-  Accedemos al nodo maestro a través de ssh por putty, debido a que los datasets aún no están en el nodo local debemos descargarlos. Ya que no existe el comando git, lo traemos desde HDFS(tambien se puede desde s3) teniendo en cuenta que los datasets ya se encuentran ahí.
+   Accedemos al nodo maestro a través de ssh por putty, debido a que los datasets aún no están en el nodo local debemos descargarlos. Ya que no existe el comando git, lo traemos desde HDFS(tambien se puede desde s3) teniendo en cuenta que los datasets ya se encuentran ahí.
   
   ![KeyPair](EMR/emr20.png)
   
@@ -154,11 +154,11 @@
   
   ![KeyPair](EMR/emr24.png)
   
-  Copiaremos los archivos locales al directorio “datasetsshell”. Podemos copiar un archivo por uno con el comando cp o podemos subir los directorios con sync.
+   Copiaremos los archivos locales al directorio “datasetsshell”. Podemos copiar un archivo por uno con el comando cp o podemos subir los directorios con sync.
   
   ![KeyPair](EMR/emr25.PNG)
  
- Los archivos fueron copiados, podemos verificar por shell o de manera interactiva en la consola de AWS/S3:
+  Los archivos fueron copiados, podemos verificar por shell o de manera interactiva en la consola de AWS/S3:
  
  ![KeyPair](EMR/emr26.png)
  
