@@ -35,17 +35,17 @@
   
   Cluster creado:
   
-![KeyPair](EMR/emr3.png)
+  ![KeyPair](EMR/emr3.png)
   
   ![KeyPair](EMR/emr4.png) 
   
-  Se agrega las reglas para los puertos pertenecientes a Hue(8888) a Zeppelin(8890) y SSH(22)
+    Se agrega las reglas para los puertos pertenecientes a Hue(8888) a Zeppelin(8890) y SSH(22)
   
-  ![KeyPair](EMR/emr5.png) 
+    ![KeyPair](EMR/emr5.png) 
   
-  Luego vamos a la seccion de Bloqueo de acceso publico y agregamos el rango de puertos de usaremos para este laboratorio.
+    Luego vamos a la seccion de Bloqueo de acceso publico y agregamos el rango de puertos de usaremos para este laboratorio.
   
-  ![KeyPair](EMR/emr28.PNG) 
+   ![KeyPair](EMR/emr28.PNG) 
   
   ## Scripts importantes para creacion y destruccion de clusters
   
