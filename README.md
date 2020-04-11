@@ -178,11 +178,68 @@
       
       Luego verificamos que si se hayan copiado:
       
-       ![HS](hdsf-s3/HS2.png)
+      ![HS](hdsf-s3/HS2.png)
       
+* Copiar datasets desde Shell en la 192.168.10.116 hacia S3/Amazon 
   
+    Subiremos los datasets desde jupyter a el bucket “mflorezrdatasets” en el directorio datasetsjupyter:
+    
+     ![HS](hdsf-s3/HS3.png)
+    
+    Debido a que en el DCA no está instalado el AWS CLI, lo instalamos mediante el comando:
   
+       pip install awscli
+       
+    Configuramos las credenciales de aws y copiamos entonces los documentos en s3:
+    
+    ![HS](hdsf-s3/HS4.png)
+    
+    Por medio de este comando consultamos si se subieron correctamente los archivos:
 
+    ![HS](hdsf-s3/HS5.png)
+    
+    O de forma interactiva:
+    
+    ![HS](hdsf-s3/HS6.png)
+     
+    Podemos ver entonces que los archivos fueron copiados en S3.
+    
+*	Copiar datasets desde Shell en su PC hacia S3/Amazon
+    
+    Actualizamos las credenciales de aws. Descargamos o clonamos el repositorio donde están los datasets a nuestro PC. 
+    Copiaremos los archivos en el siguiente directorio del bucket “mflorezrdataset”
+    
+    ![HS](hdsf-s3/HS7.png)
+   
+    A través del siguiente comando copiamos los archivos al bucket de s3. 
+    
+    ![HS](hdsf-s3/HS8.png)
+    
+    Vemos en s3 que los archivos fueron copiados.
+   
+    ![HS](hdsf-s3/HS9.png)
+    
+* Copiar datasets desde Browser via Ambari (192.168.10.116:8080) hacia HDFS/DCA 
+  
+    Ingresamos a ambari con el usuario y clave de la vpn:
+    
+    https://ambari116.dis.eafit.edu.co
+    
+    ![HS](hdsf-s3/HS10.png)
+    
+    Vamos a “Files View” , ubicamos la carpeta user y nuestro usuario, creamos un directorio llamado datasets, y subimos interactivamente los datasets.
+    
+    ![HS](hdsf-s3/HS11.png)
+    
+* Copiar datasets desde Browser AWS hacia S3/Amazon    
+
+    Ingresamos a AWS Educate, vamos a la consola y buscamos S3, una vez allí creamos un nuevo bucket con acceso público.
+    
+    ![HS](hdsf-s3/HS12.png)
+    
+    Una vez creado el bucket llamado “mflorezrdataset”, creamos un directorio dentro de él llamado dataset, y subimos los datasets de nuestro computador arrastrándolos al directorio:
+
+    ![HS](hdsf-s3/HS13.png)
  
    
   
