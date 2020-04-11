@@ -35,13 +35,56 @@
   
   Cluster creado:
   
-  ![KeyPair](EMR/emr3.png)
+![KeyPair](EMR/emr3.png)
   
   ![KeyPair](EMR/emr4.png) 
   
   Se agrega las reglas para los puertos pertenecientes a Hue(8888) a Zeppelin(8890) y SSH(22)
   
   ![KeyPair](EMR/emr5.png) 
+  
+  Luego vamos a la seccion de Bloqueo de acceso publico y agregamos el rango de puertos de usaremos para este laboratorio.
+  
+  ![KeyPair](EMR/emr28.png) 
+  
+  ## Scripts importantes para creacion y destruccion de clusters
+  
+  ![KeyPair](EMR/emr6.png) 
+
+* Destrucción de un cluster
+  
+  Interactivamente:
+  
+  ![KeyPair](EMR/emr7.png)
+  
+  Por línea de comandos:
+      1.	Actualizamos las credenciales de AWS CLI
+      2.	Ubico el id del cluster y lo destruyo con el siguiente comando
+      
+   ![KeyPair](EMR/emr8.png)
+   
+   ![KeyPair](EMR/emr9.png)
+      
+* Recreación/Clonación del cluster
+  
+  Interactivamente: 
+  
+   ![KeyPair](EMR/emr10.png)
+   
+  Por línea de comandos:
+      1.	Entramos a la información del cluster
+      2.	Consultamos el comando de AWS CLI
+    
+    ![KeyPair](EMR/emr11.png)
+    
+     3.	Ejecutamos
+  
+    ![KeyPair](EMR/emr12.png)  
+      
+    ![KeyPair](EMR/emr13.png)
+
+
+  
   
   
   
