@@ -174,7 +174,7 @@
 
       Para más facilidad haremos la copia de datos a través de Jupyter.  Ingresamos con usuario y contraseña de vpn, creamos una nueva terminal, en caso de no tener los datasets, clonamos el repositoro donde se encuentran los datasets. Luego creamos un directorio para guardar los datasets llamado “datasetsshell” y copiamos los datasets allí. 
       
-      ![HS](hdfs y s3/HS1.png)
+      ![HS](hdfs_y_s3/HS1.png)
       
   
   
