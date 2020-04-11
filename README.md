@@ -58,30 +58,31 @@
   ![KeyPair](EMR/emr7.PNG)
   
   Por línea de comandos:
-      1.	Actualizamos las credenciales de AWS CLI
-      2.	Ubico el id del cluster y lo destruyo con el siguiente comando
+  
+    1.	Actualizamos las credenciales de AWS CLI
+    
+    2.	Ubico el id del cluster y lo destruyo con el siguiente comando
       
    ![KeyPair](EMR/emr8.PNG)
-   
-   ![KeyPair](EMR/emr9.PNG)
+  
       
 * Recreación/Clonación del cluster
   
   Interactivamente: 
   
-   ![KeyPair](EMR/emr10.PNG)
+   ![KeyPair](EMR/emr9.PNG)
    
   Por línea de comandos:
       1.	Entramos a la información del cluster
       2.	Consultamos el comando de AWS CLI
     
-    ![KeyPair](EMR/emr11.PNG)
+    ![KeyPair](EMR/emr10.PNG)
     
      3.	Ejecutamos
   
-    ![KeyPair](EMR/emr12.png)  
+    ![KeyPair](EMR/emr11.PNG)  
       
-    ![KeyPair](EMR/emr13.png)
+    ![KeyPair](EMR/emr12.png)
 
 
   
