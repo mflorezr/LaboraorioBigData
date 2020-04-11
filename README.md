@@ -13,4 +13,14 @@
 
 * Ejercicio Map/ Reduce con MRJob
 
+# Bitácora
+
+## 1. Creacion y gestión de archivos en EMR 
+
+* Creación del cluster
+  
+  Creamos una KeyPair que ira asociada con el cluster
+  
+  ![KeyPair](EMR/emr 01.png)
+
 
