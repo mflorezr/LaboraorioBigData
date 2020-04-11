@@ -109,27 +109,27 @@
  
     1.	A HDFS:
  
-    Creamos los directorios y subimos los datasets.
+      Creamos los directorios y subimos los datasets.
   
-    ![KeyPair](EMR/emr15.png)
+      ![KeyPair](EMR/emr15.png)
   
     2. A S3
   
-    Nos ubicamos en nuestro bucket, o creamos uno nuevo
+      Nos ubicamos en nuestro bucket, o creamos uno nuevo
   
-    ![KeyPair](EMR/emr16.png)
+      ![KeyPair](EMR/emr16.png)
   
-    Creamos los directorios y subimos los archivos.
+      Creamos los directorios y subimos los archivos.
   
-    ![KeyPair](EMR/emr17.png)
+      ![KeyPair](EMR/emr17.png)
    
-    [OPCIONAL] Crear un bucket nuevo desde HUE
+      [OPCIONAL] Crear un bucket nuevo desde HUE
   
-    ![KeyPair](EMR/emr18.PNG)
+      ![KeyPair](EMR/emr18.PNG)
   
-    Crear directorios y subir archivos
+      Crear directorios y subir archivos
  
-    ![KeyPair](EMR/emr19.png)
+      ![KeyPair](EMR/emr19.png)
   
   
  * Desde Shell:
