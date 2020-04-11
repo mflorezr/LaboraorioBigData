@@ -164,10 +164,18 @@
  
         ![KeyPair](EMR/emr27.png)
  
- 
+### 2. Gestion de archivos en HDFS Y S3
   
+  * Copiar datasets desde Shell en la 192.168.10.116 hacia HDFS/DCA 
   
-  
+      Para este laboratorio podemos acceder al Shell desde Jupyter(https://jupyter116.dis.eafit.edu.co), desde Putty(Con la vpn y user-vpn@192.168.10.116 a través de ssh)  y desde PowerShell con el comando:
+                      
+        (local)$ ssh user-vpn@192.168.10.116.
+
+      Para más facilidad haremos la copia de datos a través de Jupyter.  Ingresamos con usuario y contraseña de vpn, creamos una nueva terminal, en caso de no tener los datasets, clonamos el repositoro donde se encuentran los datasets. Luego creamos un directorio para guardar los datasets llamado “datasetsshell” y copiamos los datasets allí. 
+      
+      ![HS](hdfs y s3/HS1.png)
+      
   
   
 
