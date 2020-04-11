@@ -45,7 +45,7 @@
   
   Luego vamos a la seccion de Bloqueo de acceso publico y agregamos el rango de puertos de usaremos para este laboratorio.
   
-  ![KeyPair](EMR/emr28.png) 
+  ![KeyPair](EMR/emr28.PNG) 
   
   ## Scripts importantes para creacion y destruccion de clusters
   
