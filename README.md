@@ -21,6 +21,6 @@
   
   Creamos una KeyPair que ira asociada con el cluster
   
-  ![KeyPair](EMR/emr 01.png)
+  ![KeyPair](EMR/emr 1.png)
 
 
