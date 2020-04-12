@@ -242,12 +242,30 @@
     ![HS](hdsf-s3/HS13.png)
  
    
-  
+ ### MAP/REDUCE
  
+ * Local
  
-  
+   Wordcount en Python
+   
+   Accedemos a Jupyter por medio de powershell, clonamos el repositorio en caso de no tener los datasets. Y luego ejecutamos los pasos del laboratorio.
+   
+   Correr la versión serial / secuencial asumiendo todos los datos locales:
+                    
+        $ cd 02-mapreduce
+        $ python wordcount-local.py /datasets/gutenberg-small/*.txt > salida-serial.txt 
+        $ more salida-serial.txt
 
+   ![MR](mapreduce/mr1.png)
   
+   Despues de descargar la libreria de Mrjob para acceder a los recursos de Map/Reduce en Hadoop, se prueba mrjob python local:
+   
+        $ cd 02-mapreduce
+        $ python wordcount-mr.py ../datasets/gutenberg-small/*.txt
+        
+   ![MR](mapreduce/mr2.png)
+    
+
   
   
   
