@@ -47,9 +47,9 @@
   
    ![KeyPair](EMR/emr28.PNG) 
   
-# Scripts importantes para creacion y destruccion de clusters
+  # Scripts importantes para creacion y destruccion de clusters
   
-  ![KeyPair](EMR/emr6.PNG) 
+    ![KeyPair](EMR/emr6.PNG) 
 
 * Destrucción de un cluster
   
