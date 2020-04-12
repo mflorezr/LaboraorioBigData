@@ -1,5 +1,5 @@
 # Laboratorio BigData
-# STO263 Tópicos especiales en telemática 
+# ST0263 Tópicos especiales en telemática 
 
 # Mateo Flórez Restrepo
 # 2020-1
@@ -47,7 +47,7 @@
   
    ![KeyPair](EMR/emr28.PNG) 
   
-## Scripts importantes para creacion y destruccion de clusters
+# Scripts importantes para creacion y destruccion de clusters
   
   ![KeyPair](EMR/emr6.PNG) 
 
