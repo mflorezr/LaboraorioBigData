@@ -32,7 +32,13 @@
       
       El programa creado para resolver esta pregunta es : [AnnualSalary.py](AnnualSalary.py)
       
-      Comando para probarlo con un dataset local [datasets](../datasets/)
+      Comando para probarlo con un dataset local [datasets](../datasets/):
+      
+          $ python AnnualSalary.py ../datasets/dataempleados.csv
+          
+      Para guardar los resultados en un archivo [Salario promedio por sector.txt](Salario%20promedio%por%sector.txt)
+      
+      
    
 
   
