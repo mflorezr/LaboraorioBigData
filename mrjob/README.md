@@ -2,7 +2,7 @@
 # Mateo Florez Restrepo
 
 
-# Problema 
+## Problema 
 
   1. Se tiene un conjunto de datos, que representan el salario anual de los empleados formales en Colombia por sector económico, según la DIAN.
   
@@ -21,3 +21,18 @@
   1. El salario promedio por Sector Económico (SE)
   2. El salario promedio por Empleado
   3. Número de SE por Empleado que ha tenido a lo largo de la estadística
+  
+## Solucion
+
+   Antes de probarlos se debe descargar la libreria de mrjob para usar los recursos 
+              
+       $ pip install mrjob
+
+   1. El salario promedio por Sector Económico (SE)
+      
+      El programa creado para resolver esta pregunta es : [AnnualSalary.py](AnnualSalary.py)
+      
+      Comando para probarlo con un dataset local (dataset)(../datasets/)
+   
+
+  
