@@ -36,7 +36,12 @@
       
           $ python AnnualSalary.py ../datasets/dataempleados.csv
           
-      Para guardar los resultados en un archivo [Salario promedio por sector.txt](Salario%20promedio%por%sector.txt)
+      ![mrjob](../mapreduce/mr3.PNG)    
+      
+          
+      Para guardar los resultados en un archivo [Salario promedio por sector.txt](Salario%20promedio%20por%20sector.txt)
+      
+          $ python AnnualSalary.py ../datasets/dataempleados.csv > Salario promedio por sector.txt
       
       
    
