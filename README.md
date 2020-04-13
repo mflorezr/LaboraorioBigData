@@ -268,7 +268,7 @@
 
 ## 4. Ejercicio Map/Reduce con MRjob
 
-  ![MRjob](mrjob/)
+  * ver: [MRjob exercise](mrjob)
   
   
   
