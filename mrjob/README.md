@@ -1,5 +1,5 @@
 # LABORATORIO MRJOB
-# Mateo Florez Restrepo
+# Mateo Flórez Restrepo
 
 
 ## Problema 
@@ -14,7 +14,6 @@
           3233,1234,40000,1965
           1115,1212,77000,1980
           1115,1412,76000,1981
-          1116,1412,76000,1982
 
 * Realizar un programa en Map/Reduce, con hadoop en Python o Java, que permita calcular:
 
@@ -22,7 +21,7 @@
   2. El salario promedio por Empleado
   3. Número de SE por Empleado que ha tenido a lo largo de la estadística
   
-## Solucion
+## Solución
 
    Antes de probarlos se debe descargar la libreria de mrjob para usar los recursos 
               
