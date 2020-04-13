@@ -242,7 +242,7 @@
     ![HS](hdsf-s3/HS13.png)
  
    
- ### MAP/REDUCE
+ ### 3. MAP/REDUCE
  
  * Local
  
@@ -266,7 +266,9 @@
    ![MR](mapreduce/mr2.png)
     
 
-  
+## 4. Ejercicio Map/Reduce con MRjob
+
+  ![MRjob](mrjob/)
   
   
   
