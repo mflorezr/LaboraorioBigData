@@ -32,7 +32,7 @@
       
       El programa creado para resolver esta pregunta es : [AnnualSalary.py](AnnualSalary.py)
       
-      Comando para probarlo con un dataset local (dataset)(../datasets/)
+      Comando para probarlo con un dataset local [datasets](../datasets/)
    
 
   
