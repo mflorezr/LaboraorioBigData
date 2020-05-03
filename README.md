@@ -280,21 +280,23 @@
   
 ### 5. Gestion de datos HIVE/SQOOP
 
+## HIVE
+
    * Crear la base de datos ‘mydb’
    	 
-	 ![HS](hive_sqoop/hs1.png)
+     ![HS](hive_sqoop/hs1.png)
 
    * Crear la tabla ‘hdi’ dentro de la base de datos 
    
-  	  ![HS](hive_sqoop/hs2.png)
+     ![HS](hive_sqoop/hs2.png)
 
    * Cargar datos a la tabla:
-   
-	   copiando datos directamente hacia hdfs:///user/hive/warehouse/mydb.db/hdi
+     
+     copiando datos directamente hacia hdfs:///user/hive/warehouse/mydb.db/hdi
      	 
-	   ![HS](hive_sqoop/hs3.png)
+     ![HS](hive_sqoop/hs3.png)
 	   
-	   ![HS](hive_sqoop/hs4.png)
+     ![HS](hive_sqoop/hs4.png)
 	  
    * Consultas:
       
@@ -314,7 +316,7 @@
        
        ![HS](hive_sqoop/hs8.png)
 	
-## Sqoop
+## SQOOP
 
    Gestion de datos y tablas ‘curso’ y ‘retail_db’
    
