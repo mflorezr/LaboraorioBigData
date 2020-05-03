@@ -444,7 +444,21 @@
      
 ### 8. Laboratorio en Spark
 
-
+   * Carga de datos csv en spark desde un bucket S3.
+     
+     ![SP](spark/sp6.png)
+     
+     Algunos datos del dataframe
+     
+     ![SP](spark/sp7.png)
+    
+   * Borrar y crear algunas columnas
+   
+     1. Se añade una columna llamada Age_Range que según la edad que tiene la persona le asigna una categoría entre niño, joven, joven adulto, adulto, adulto mayor.
+     
+       ![SP](spark/sp8.png)
+       
+       ![SP](spark/sp7.png)
      
    
 
