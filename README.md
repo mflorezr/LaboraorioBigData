@@ -281,12 +281,12 @@
 ### 5. Gestion de datos HIVE/SQOOP
 
    * Crear la base de datos ‘mydb’
-   
-   	![HS](hive_sqoop/hs1.png)
+   	 
+	 ![HS](hive_sqoop/hs1.png)
 
    * Crear la tabla ‘hdi’ dentro de la base de datos 
    
-  	![HS](hive_sqoop/hs2.png)
+  	  ![HS](hive_sqoop/hs2.png)
 
    * Cargar datos a la tabla:
    
