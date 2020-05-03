@@ -368,19 +368,19 @@
      
      1. Categorías más populares de productos
      
-     ![HS](hive_sqoop/hs19.png)
+       ![HS](hive_sqoop/hs19.png)
      
-     Resultado:
+       Resultado:
      
-     ![HS](hive_sqoop/hs20.png)
+       ![HS](hive_sqoop/hs20.png)
      
      2. Top 10 de los productos que generan más ganancia
      
-     ![HS](hive_sqoop/hs21.png)
+       ![HS](hive_sqoop/hs21.png)
      
-     Resultado:
+       Resultado:
      
-     ![HS](hive_sqoop/hs22.png)
+       ![HS](hive_sqoop/hs22.png)
      
    * Pregunta de negocio
    
@@ -403,6 +403,7 @@
      
      * Procesar ETL:
 	
+      
       1. Mostrar los productos más visitados 
       
       ![HS](hive_sqoop/hs26.png)
