@@ -405,11 +405,11 @@
      
      	1. Mostrar los productos más visitados 
 	
-		![HS](hive_sqoop/hs26.png)
-		
-		Resultados:
-		
-		![HS](hive_sqoop/hs27.png)
+	  ![HS](hive_sqoop/hs26.png)
+	  
+	  Resultados:
+	  
+	  ![HS](hive_sqoop/hs27.png)
       
      * Pregunta de negocio
      
