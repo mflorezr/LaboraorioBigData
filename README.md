@@ -368,20 +368,19 @@
      
      1. Categorías más populares de productos
      
+      	![HS](hive_sqoop/hs19.png)
      
-       ![HS](hive_sqoop/hs19.png)
+       	Resultado:
      
-       Resultado:
-     
-       ![HS](hive_sqoop/hs20.png)
+       	![HS](hive_sqoop/hs20.png)
      
      2. Top 10 de los productos que generan más ganancia
      
-       ![HS](hive_sqoop/hs21.png)
+     	![HS](hive_sqoop/hs21.png)
      
-       Resultado:
+       	Resultado:
      
-       ![HS](hive_sqoop/hs22.png)
+       	![HS](hive_sqoop/hs22.png)
      
    * Pregunta de negocio
    
@@ -403,20 +402,20 @@
      ![HS](hive_sqoop/hs25.png)
      
      * Procesar ETL:
-	
-      1. Mostrar los productos más visitados 
-      
-      ![HS](hive_sqoop/hs26.png)
-      
-      Resultados:
-      
-      ![HS](hive_sqoop/hs27.png)
+     
+     	1. Mostrar los productos más visitados 
+	  
+	  ![HS](hive_sqoop/hs26.png)
+	  
+	  Resultados:
+	  
+	  ![HS](hive_sqoop/hs27.png)
       
      * Pregunta de negocio
      
-     ¿Son los productos más visitados en el sitio web los más vendidos?
+     	¿Son los productos más visitados en el sitio web los más vendidos?
      
-     Como podemos ver en los resultados de los logs los productos mas visitados si son los que generan mas ganancia y por ende mas rentabilidad para la empresa.
+    	 Como podemos ver en los resultados de los logs los productos mas visitados si son los que generan mas ganancia y por ende mas rentabilidad para la empresa.
 
  
 
