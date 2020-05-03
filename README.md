@@ -298,30 +298,30 @@ SQOOP
 	   ![HS](hive_sqoop/hs4.png)
 	  
    * Consultas:
-   
-   	![HS](hive_sqoop/hs5.png)
-   
-   	Join con hive:
-   
-   	![HS](hive_sqoop/hs6.png)
+      
+      ![HS](hive_sqoop/hs5.png)
+      
+      Join con hive:
+      
+      ![HS](hive_sqoop/hs6.png)
      
    * WordCount en hive
-	
- 	Ordenado por palabra:
-	
-        ![HS](hive_sqoop/hs7.png)
-	
-        Ordenado por frecuencia mayor a menor
-	
-        ![HS](hive_sqoop/hs8.png)
+       
+       Ordenado por palabra:
+       
+       ![HS](hive_sqoop/hs7.png)
+       
+       Ordenado por frecuencia mayor a menor
+       
+       ![HS](hive_sqoop/hs8.png)
 	
    * Sqoop
-   
-   	Gestion de datos y tablas ‘curso’ y ‘retail_db’
-	
-	Datos en SQL:
-	
-	Comando para cargar los scripts de datos:
+      
+      Gestion de datos y tablas ‘curso’ y ‘retail_db’
+      
+      Datos en SQL:
+      
+      Comando para cargar los scripts de datos:
 
 	
 	
