@@ -455,10 +455,16 @@
    * Borrar y crear algunas columnas
    
      1. Se añade una columna llamada Age_Range que según la edad que tiene la persona le asigna una categoría entre niño, joven, joven adulto, adulto, adulto mayor.
-     
+       
        ![SP](spark/sp8.png)
        
        ![SP](spark/sp9.png)
+       
+     2. Se añade columna ‘age_after_10_years’ : Edad de la población después de diez años
+     	
+	![SP](spark/sp8.png)
+       
+        ![SP](spark/sp9.png)
      
    
 
