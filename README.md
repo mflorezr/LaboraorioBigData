@@ -368,6 +368,7 @@
      
      1. Categorías más populares de productos
      
+     
        ![HS](hive_sqoop/hs19.png)
      
        Resultado:
@@ -403,7 +404,6 @@
      
      * Procesar ETL:
 	
-      
       1. Mostrar los productos más visitados 
       
       ![HS](hive_sqoop/hs26.png)
