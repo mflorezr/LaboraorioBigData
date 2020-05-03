@@ -13,6 +13,14 @@
 
 * Ejercicio Map/ Reduce con MRJob
 
+* Gestion de datos hive/sqoop 
+
+* Caso de estudio Retail_db
+
+* Spark ejecución, Jupyter Notebooks
+
+* Lab estudio COVID_19
+
 # Bitácora
 
 ### 1. Creacion y gestión de archivos en EMR 
@@ -266,9 +274,29 @@
    ![MR](mapreduce/mr2.png)
     
 
-## 4. Ejercicio Map/Reduce con MRjob
+### 4. Ejercicio Map/Reduce con MRjob
 
   * ver: [MRjob exercise](mrjob)
+  
+### 5. Gestion de datos HIVE/SQOOP
+
+   * Crear la base de datos ‘mydb’
+   
+   ![HS](hive_sqoop/hs1.png)
+
+   * Crear la tabla ‘hdi’ dentro de la base de datos 
+   
+   ![HS](hive_sqoop/hs2.png)
+
+   * Cargar datos a la tabla:
+   
+	   copiando datos directamente hacia hdfs:///user/hive/warehouse/mydb.db/hdi
+     
+     ![HS](hive_sqoop/hs3.png)
+     
+
+
+
   
   
   
