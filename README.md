@@ -421,10 +421,10 @@
 ### 7. Spark ejecución, Jupyter Notebooks
 
    * PySpark
-   
-   	![SP](spark/sp1.png)
-   
-   	![SP](spark/sp2.png)
+     
+     ![SP](spark/sp1.png)
+     
+     ![SP](spark/sp2.png)
    
    * Zeppelin
     
