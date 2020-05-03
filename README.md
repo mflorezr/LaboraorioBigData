@@ -462,18 +462,54 @@
        
      2. Se añade columna ‘age_after_10_years’ : Edad de la población después de diez años
      	
-	![SP](spark/sp8.png)
+       ![SP](spark/sp10.png)
        
-        ![SP](spark/sp9.png)
+       ![SP](spark/sp11.png)
+       
+     3. Se añade una columna ‘cases_range’ para saber si el caso fue en la capital u otra región
+      
+       ![SP](spark/sp12.png)
+       
+       ![SP](spark/sp13.png)
      
-   
+     4. Se borran las columnas:  'Codigo DIVPOLA','Departamento o Distrito ','País de procedencia','FIS','fecha reporte web'
+    
+       ![SP](spark/sp14.png)
+       
+       ![SP](spark/sp15.png)
+       
 
- 
-
-
+   * Realizar filtrados de datos por alguna información que le parezca interesante
      
+     1. ¿En qué tipos de atención se encuentran los afectado?
+       
+       ![SP](spark/sp16.png)
+       
+     2. Filtrar por edad y atención 
+     	
+       ![SP](spark/sp17.png)
+       
+     3. Información como la edad, el sexo y el departamento de los fallecidos
 
+       ![SP](spark/sp18.png)
      
+     4. ¿Cuánto tiempo estuvieron enfermos aquellos que ya se recuperaron?
+       
+       ![SP](spark/sp19.png)
+       
+     5. ¿De dónde son los que están en cuidados intensivos y que edad tienen?
+      
+       ![SP](spark/sp20.png)
+      
+     6. ¿De dónde son los casos importados?
+       
+       ![SP](spark/sp21.png)
+     
+     7. ¿Cuántos menores de 20 años han muerto?
+       
+       ![SP](spark/sp22.png)
+	
+  * Realizar alguna agrupación y consulta de datos categórica, por ejemplo, número de casos por región o por sexo/genero.
      
 
 
