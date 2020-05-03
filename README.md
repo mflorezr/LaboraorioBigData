@@ -509,7 +509,57 @@
        
        ![SP](spark/sp22.png)
 	
-  * Realizar alguna agrupación y consulta de datos categórica, por ejemplo, número de casos por región o por sexo/genero.
+   * Realizar alguna agrupación y consulta de datos categórica, por ejemplo, número de casos por región o por sexo/genero.
+    
+     1. ¿Cuántos casos son importados y cuántos pertenecen a otras categorías?
+      
+       ![SP](spark/sp23.png)
+     
+     2. ¿En qué edades hay más contagiado?
+       
+       ![SP](spark/sp24.png)
+     
+     3. Promedio de edad por cada tipo de atención
+       
+       ![SP](spark/sp25.png)
+     
+     4. El mínimo de edad por cada caso y el estado de atención
+       
+       ![SP](spark/sp26.png)
+     
+     5. Número de casos por cada sexo
+       
+       ![SP](spark/sp27.png)
+     
+     6. Numero de casos por cada departamento en forma descendente
+       
+       ![SP](spark/sp28.png)
+       
+     7. ¿Cuántos casos hay por cada estado?
+       
+       ![SP](spark/sp29.png)
+       
+   * Finalmente grave los resultados en un bucket público en S3
+   
+     En csv:
+     
+     ![SP](spark/sp30.png)
+     
+     ![SP](spark/sp31.png)
+     
+     En parquet:
+     
+     ![SP](spark/sp32.png)
+     
+     ![SP](spark/sp33.png)
+     
+     
+     
+       
+     
+     	
+       
+    
      
 
 
