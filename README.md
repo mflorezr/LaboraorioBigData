@@ -421,9 +421,32 @@
 ### 7. Spark ejecución, Jupyter Notebooks
 
    * PySpark
+   
    	![SP](spark/sp1.png)
-	
- 	![SP](spark/sp2.png)
+   
+   	![SP](spark/sp2.png)
+   
+   * Zeppelin
+    
+     Wordcount en Python:
+     
+     ![SP](spark/sp3.png)
+     
+     Wordcount en spark.sql
+     
+     ![SP](spark/sp4.png)
+     
+   * Jupyter Notebooks
+     
+     WordCount:
+     
+     ![SP](spark/sp5.png)
+     
+### 8. Laboratorio en Spark
+
+
+     
+   
 
  
 
