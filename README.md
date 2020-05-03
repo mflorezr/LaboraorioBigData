@@ -318,17 +318,117 @@
 	
 ## SQOOP
 
-   Gestion de datos y tablas ‘curso’ y ‘retail_db’
+   * Gestion de datos y tablas ‘curso’ y ‘retail_db’
    
-   Datos en SQL:
+     Datos en SQL:
 
-   Comando para cargar los scripts de datos:
+     Comando para cargar los scripts de datos:
 
-   ![HS](hive_sqoop/hs9.png)
+     ![HS](hive_sqoop/hs9.png)
 
-   ![HS](hive_sqoop/hs10.png)
+     ![HS](hive_sqoop/hs10.png)
  
-   ![HS](hive_sqoop/hs11.png)
+     ![HS](hive_sqoop/hs11.png)
+   
+   * Por HUE:
+   
+     ![HS](hive_sqoop/hs12.png)
+     
+   * Comandos Sqoop desde CLI
+   
+     Datos transferidos a HDFS y listados:
+     
+     ![HS](hive_sqoop/hs13.png)
+     
+     Crear tabla hive e importar datos desde mysql
+      
+     ![HS](hive_sqoop/hs14.png)
+     
+     Traer todas las tablas de mysql a hive via hdfs 
+     
+     ![HS](hive_sqoop/hs15.png)
+     
+     Consulta en MYSQL
+     
+     ![HS](hive_sqoop/hs16.png)
+     
+     Consulta en HIVE
+     
+     ![HS](hive_sqoop/hs17.png)
+      
+### 6. Caso de estudio Retail_db
+
+   * Ingesta de datos:
+   	
+     Importar los datos de Mysql a HIVE via sqoop
+     
+     ![HS](hive_sqoop/hs18.png)
+     
+   * Procesar los datos
+     
+     1. Categorías más populares de productos
+     
+     ![HS](hive_sqoop/hs19.png)
+     
+     Resultado:
+     
+     ![HS](hive_sqoop/hs20.png)
+     
+     2. Top 10 de los productos que generan más ganancia
+     
+     ![HS](hive_sqoop/hs21.png)
+     
+     Resultado:
+     
+     ![HS](hive_sqoop/hs22.png)
+     
+   * Pregunta de negocio
+   
+     ¿Son los productos más visitados los que hacen parte de los de mayor rentabilidad? 
+     Como podemos ver los productos mas vistos o populares no son los mismos que generan más ganancia a la empresa.
+     
+   * Ingestar, almacenar, y procesar logs de eventos de servidores web
+   
+     * Subir los logs al HDFS
+    
+     ![HS](hive_sqoop/hs23.png)
+     
+     * Crear tabla y almacenar los logs
+     
+     ![HS](hive_sqoop/hs24.png)
+     
+     * Crear directorio para tabla externa con ETL
+     
+     ![HS](hive_sqoop/hs25.png)
+     
+     * Procesar ETL:
+	
+      1. Mostrar los productos más visitados 
+      
+      ![HS](hive_sqoop/hs26.png)
+      
+      Resultados:
+      
+      ![HS](hive_sqoop/hs27.png)
+      
+     * Pregunta de negocio
+     
+     ¿Son los productos más visitados en el sitio web los más vendidos?
+     
+     Como podemos ver en los resultados de los logs los productos mas visitados si son los que generan mas ganancia y por ende mas rentabilidad para la empresa.
+
+ 
+
+
+     
+
+     
+     
+
+
+   
+   
+   
 
 	
 	
