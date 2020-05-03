@@ -278,8 +278,7 @@
 
   * ver: [MRjob exercise](mrjob)
   
-### 5. Gestion de datos HIVE/
-SQOOP
+### 5. Gestion de datos HIVE/SQOOP
 
    * Crear la base de datos ‘mydb’
    
@@ -315,13 +314,19 @@ SQOOP
        
        ![HS](hive_sqoop/hs8.png)
 	
-   * Sqoop
-      
-      Gestion de datos y tablas ‘curso’ y ‘retail_db’
-      
-      Datos en SQL:
-      
-      Comando para cargar los scripts de datos:
+## Sqoop
+
+   Gestion de datos y tablas ‘curso’ y ‘retail_db’
+   
+   Datos en SQL:
+
+   Comando para cargar los scripts de datos:
+
+   ![HS](hive_sqoop/hs9.png)
+
+   ![HS](hive_sqoop/hs10.png)
+ 
+   ![HS](hive_sqoop/hs11.png)
 
 	
 	
