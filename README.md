@@ -402,8 +402,8 @@
      ![HS](hive_sqoop/hs25.png)
      
      * Procesar ETL:
-     
-     	1. Mostrar los productos más visitados 
+       
+       1. Mostrar los productos más visitados 
 	
 	  ![HS](hive_sqoop/hs26.png)
 	  
