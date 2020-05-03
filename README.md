@@ -402,20 +402,28 @@
      ![HS](hive_sqoop/hs25.png)
      
      * Procesar ETL:
-      
-       1. Mostrar los productos más visitados 
-      
-       	  ![HS](hive_sqoop/hs26.png)
-	 
-	  Resultados:
-	 
-	  ![HS](hive_sqoop/hs27.png)
-      
+     
+     	1. Mostrar los productos más visitados
+		
+		![HS](hive_sqoop/hs26.png)
+		
+		Resultados:
+		
+		![HS](hive_sqoop/hs27.png)
+
+
      * Pregunta de negocio
      
      	¿Son los productos más visitados en el sitio web los más vendidos?
      
     	 Como podemos ver en los resultados de los logs los productos mas visitados si son los que generan mas ganancia y por ende mas rentabilidad para la empresa.
+
+### 7. Spark ejecución, Jupyter Notebooks
+
+   * PySpark
+   	![SP](spark/sp1.png)
+	
+ 	![SP](spark/sp2.png)
 
  
 
